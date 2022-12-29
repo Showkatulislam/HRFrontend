@@ -1,0 +1,32 @@
+.add-employee-title{
+    display: flex;
+    align-items: center;
+}
+.add-employee-title h1{
+    font-weight: 300;
+}
+.form-container{
+    width: 500px;
+    margin:5px auto;
+    border: 1px solid purple;
+    padding: 20px 20px;
+}
+.input-group{
+    padding: 10px;
+   
+}
+.form-container label{
+    margin-right: 10px;
+    margin: 5px 0px;
+}
+.form-container input,select{
+    width: 100%;
+    height: 30px;
+    outline: none;
+}
+.form-container .btn{
+    background: #35aa47;
+    border: none;
+    color: white;
+    padding: 5px;
+}

@@ -1,0 +1,51 @@
+.attendance-title{
+    font-weight: 200;
+}
+.attendance-header{
+    margin-top: 40px;
+    background-color: #4B8DF8;
+    padding: 10px;
+    font-size: 18px;
+    color: white;
+}
+.attendance-data-container{
+    border: 1px solid #4B8DF8;
+    padding: 10px;
+}
+.attendance-date{
+   margin: 5px;
+   font-size: 18px;
+   margin: 10px 0;
+}
+.attendance-mark-container th{
+    background: #4B8DF8;
+    color: white;
+    border: none;
+}
+.attendance-mark-container td{
+    border: none;
+}
+.present-btn{
+    width: 100px;
+    border: none;
+    margin: 0 5px;
+    padding: 5px;
+    background: #45b6af;
+    border-radius: 4px;
+    color: white;
+}
+.absent-btn{
+    width: 100px;
+    border: none;
+    margin: 0 5px;
+    padding: 5px;
+    background: #F3565D;
+    border-radius: 4px;
+    color: white;
+}
+td input{
+    outline: none;
+    border: 1px solid black;
+    padding: 2px;
+    border-radius: 2px;
+}

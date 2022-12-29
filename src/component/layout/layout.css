@@ -1,0 +1,35 @@
+.container{
+    margin-top: 45px;
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+}
+.leftpart{
+    width: 235px;
+    padding: 20px 10px;
+    background: #364150;
+    color: wheat;
+    height: 100vh;
+    position: fixed;
+    top: 45px;
+    left:0 ;
+}
+.left-link{
+    width: 100%;
+    padding: 10px 10px;
+}
+.left-link a{
+    display: flex;
+    align-items: center;
+}
+.left-link a span{
+    margin: 0 10px;
+    color: wheat;
+}
+.left-link:hover{
+    background: #2b3643;
+}
+.rightpart{
+    margin-left: 235px;
+    width: 100%;
+    padding: 20px 20px;
+}
